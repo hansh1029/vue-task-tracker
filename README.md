@@ -32,4 +32,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - methods
 - data() & created() method
 - v-for, v-bind:key
-- 
+- dynamic class
