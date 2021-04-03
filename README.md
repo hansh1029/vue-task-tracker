@@ -33,3 +33,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - data() & created() method
 - v-for, v-bind:key
 - dynamic class
+- emit event, $emit
