@@ -1,16 +1,19 @@
 <template>
   <div class="container">
     <Header title="Task Tracker" />
+    <Tasks v-bind:tasks="tasks" />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header";
+import Tasks from "./components/Tasks";
 
 export default {
   name: "App",
   components: {
     Header,
+    Tasks,
   },
   // return data that the component has
   data() {
@@ -20,7 +23,7 @@ export default {
   },
   // set data when component created
   created() {
-    this.task = [
+    this.tasks = [
       {
         id: 1,
         text: "Drink Water",
