@@ -12,6 +12,35 @@ export default {
   components: {
     Header,
   },
+  // return data that the component has
+  data() {
+    return {
+      tasks: [],
+    };
+  },
+  // set data when component created
+  created() {
+    this.task = [
+      {
+        id: 1,
+        text: "Drink Water",
+        day: "2021/4/2",
+        reminder: true,
+      },
+      {
+        id: 2,
+        text: "Take a walk",
+        day: "2021/4/3",
+        reminder: true,
+      },
+      {
+        id: 3,
+        text: "Do coding",
+        day: "2021/4/5",
+        reminder: false,
+      },
+    ];
+  },
 };
 </script>
 
