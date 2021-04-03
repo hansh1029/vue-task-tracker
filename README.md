@@ -34,3 +34,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - v-for, v-bind:key
 - dynamic class
 - emit event, $emit
+- v-model
