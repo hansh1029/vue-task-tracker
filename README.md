@@ -31,3 +31,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - props
 - methods
 - data() & created() method
+- v-for, v-bind:key
+- 
