@@ -42,12 +42,13 @@ export default {
       }
 
       const newTask = {
-        id: Math.floor(Math.random() * 100000),
+        // json-sever set id automaticaaly
+        // id: Math.floor(Math.random() * 100000),
         text: this.text,
         day: this.day,
         reminder: this.reminder,
       };
-      this.$emit('add-task', newTask);
+      this.$emit("add-task", newTask);
       //clear form
       this.text = "";
       this.day = "";
