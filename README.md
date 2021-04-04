@@ -26,6 +26,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## extentions & libraries
 - vetur
 - json-server
+- vue-router@next
 
 ## key concepts
 - component
@@ -38,3 +39,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - v-model
 - v-if
 - v-show
+- router, router-view, router-link
+- views
