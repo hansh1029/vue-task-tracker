@@ -35,3 +35,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - dynamic class
 - emit event, $emit
 - v-model
+- v-if
+- v-show
